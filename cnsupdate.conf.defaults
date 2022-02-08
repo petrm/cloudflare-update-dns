@@ -1,0 +1,28 @@
+auth_email=The email used to login https://dash.cloudflare.com
+# Set to "global" for Global API Key or "token" for Scoped API Token
+# Default: token
+auth_method=token
+auth_key=Your API Token or Global API Key
+zone_identifier=Can be found in the Overview tab of your domain
+record_name=record.to.update.example.org
+
+# Update A record when 4
+# Update AAAA record 6
+# Update both when empty
+ip_version=
+
+# Use a remote server to obtain IP address whent true
+# Use interface when false
+use_web=true
+
+# Interface name
+# Must be set when use_iface=1
+iface=eth0
+
+# Set the DNS TTL (seconds)
+# Default: 1 (auto)
+ttl=1
+
+# Use proxy true/false
+# Default: false
+proxy=false

@@ -1,2 +1,2 @@
 # cloudflare-update-dns
-Shell script to update IP address in Cloudflare DNS.
+Shell script to update IP addresses in Cloudflare DNS.
